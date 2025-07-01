@@ -1,7 +1,24 @@
-.ipynb_checkpoints
-__pycache__/
-*images/
-*egg-info
-*.png
-*.dot
-build/
+# ltspice building
+*.net
+*.log
+*.raw
+
+# latex building
+*.bcf*
+*.bbl
+*.aux
+*.lot
+*.out
+*.lof
+*.fls
+*.run*
+*.synctex*
+*.toc
+*.fdb_latexmk
+*.blg
+
+# jupyter container
+.cache*
+.ipy*
+.local*
+.jupyter*
